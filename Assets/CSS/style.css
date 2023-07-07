@@ -1,0 +1,71 @@
+body {
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  border: 5px solid black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.login-box {
+  margin: 50px auto;
+  width: 200px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 1300px;
+}
+
+.image-container div {
+  text-align: center;
+}
+
+.image-container img {
+  width: 400px;
+  height: 300px;
+}
+
+.map-container {
+  text-align: center;
+  margin: 150px auto;
+  width: 800px;
+  height: 400px;
+}
+
+footer {
+  text-align: center;
+  background-color: beige;
+  padding: 10px;
+}
